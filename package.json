@@ -1,0 +1,21 @@
+{
+  "name": "billow-catalog-client",
+  "version": "0.1.0",
+  "description": "Javascript client for the billow catalog",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc"
+  },
+  "keywords": [
+    "billing"
+  ],
+  "author": "Kelly Banman <kelly.banman@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^0.19.2"
+  },
+  "devDependencies": {
+    "typescript": "^3.9.3"
+  }
+}

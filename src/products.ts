@@ -8,10 +8,11 @@ export interface Entitlement {
 
 export interface Product {
     productId: string
+    createdAt: Date
     name: string
     description?: string
-    createdAt: Date
     entitlements: Map<string, Entitlement>
+    stripeProductId?: string
 }
 
 export type GetProductOutput = {
@@ -21,11 +22,12 @@ export type GetProductOutput = {
 export interface CreateProductInput {
     name: string
     description?: string
+    stripeProductId?: string
     entitlements: EntitlementsObject
 }
 
 export interface CreateProductOutput {
-    productId: string
+    product: Product
 }
 
 export interface UpdateProductInput {

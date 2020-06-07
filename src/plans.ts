@@ -31,6 +31,7 @@ export interface UpdatePlanInput {
     planId: string
     name?: string
     productId?: string
+    currency?: Currency
     description?: string
     stripePlanId?: string
 }

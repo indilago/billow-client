@@ -13,7 +13,7 @@
   "author": "Kelly Banman <kelly.banman@gmail.com>",
   "license": "MIT",
   "dependencies": {
-    "axios": "^0.21.1"
+    "axios": "^0.21.2"
   },
   "devDependencies": {
     "typescript": "^3.9.3"
